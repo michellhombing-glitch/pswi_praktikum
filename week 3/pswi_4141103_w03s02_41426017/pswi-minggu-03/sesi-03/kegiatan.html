@@ -1,38 +1,38 @@
 <!doctype html>
 <html lang="id">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Jadwal dan daftar kegiatan Komunitas Web Mahasiswa.">
   <title>Kegiatan | Komunitas Web Mahasiswa</title>
-  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header class="site-header">
-    <!-- Judul website -->
-    <h1>WELCOME!!</h1>
-    <!-- Navbar dengan gambar sebagai latar belakang -->
-    <nav class="navbar" aria-label="Navigasi utama">
-        <a href="index.html">Beranda</a>
-        <a href="kegiatan.html">Kegiatan</a>
-        <a href="daftar.html">Daftar</a>
+  <header>
+    <h1>Kegiatan Komunitas</h1>
+    <nav aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a> | 
+      <a href="kegiatan.html" aria-current="page">Kegiatan</a> | 
+      <a href="kontak.html">Kontak</a>
     </nav>
-</header>
+  </header>
 
   <main>
     <h2>Jadwal Kegiatan</h2>
 
-    <!-- Tabel dengan id="jadwal" agar dikenali oleh CSS -->
-    <table id="jadwal">
+    <figure>
+      <img src="imup13.jpg" 
+       alt ="Mahasiswa sedang berdiskusi di dalam kelas" width="400" height="200">
+      <figcaption>Dokumentasi Kegiatan Pelatihan Web.</figcaption>
+    </figure>
+
+    <table id="jadwal" border="1">
       <caption>Jadwal Kegiatan September 2026</caption>
       <thead>
         <tr>
-          <th>Tanggal</th>
-          <th>Kegiatan</th>
-          <th>Tempat</th>
-          <th>Status</th>
+          <th scope="col">Tanggal</th>
+          <th scope="col">Kegiatan</th>
+          <th scope="col">Tempat</th>
+          <th scope="col">Status</th>
         </tr>
       </thead>
       <tbody>
@@ -64,5 +64,4 @@
     </table>
   </main>
 </body>
-
 </html>
