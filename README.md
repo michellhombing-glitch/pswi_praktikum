@@ -1,1 +1,0 @@
-# pswi_praktikum

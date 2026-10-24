@@ -1,0 +1,2 @@
+pada laporan validator kegiatan html saya menggunakan AI untuk menanyakan dimana yang salah dan bagaimana cara menempatkan code yang benar. 
+saya tidak mengubah karena border=1 adalah cara tercepat dan termudah agar tabel langsung terlihat memiliki kolom dan baris yang jelas tanpa perlu menulis kode CSS terpisah. 
