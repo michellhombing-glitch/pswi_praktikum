@@ -1,0 +1,88 @@
+body {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: "Times New Roman", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #e8f8ff;
+}
+
+header,
+main {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgb(140, 180, 195);
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+
+    img {
+    max-width: 100%;
+    height: auto;
+}
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px;
+    padding: var(--space-2, 1rem);
+    transition: transform 0.3s ease;
+}
+
+.catalog {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 48rem) {
+    .catalog {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+input,
+select,
+textarea {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid rgb(255, 255, 255);
+    outline-offset: 2px;
+}
+
+h1 {
+    font-size: clamp(1.75rem, 1.2rem + 2vw, 3rem);
+}
+
+@container (min-width: 30rem) {
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    color: #12526d;
+    background-color: #eff7ff;
+}
+.kartu {
+    flex: 1;
+}
+
